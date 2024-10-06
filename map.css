@@ -1,0 +1,71 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* Add a black transparent gradient */
+        url('https://cdn.wallpapersafari.com/21/77/3Ux01N.jpg'); /* The background image */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.main-header{
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+}
+
+
+
+main {
+    padding: 20px;
+}
+.bg-img{
+    width: 100%;
+    z-index: 0;
+    background-size: cover;
+    position: relative;
+    opacity: .15;
+    background-color: rgba(0, 0, 0, 0.196);
+}
+/* Map section styling */
+.map-section {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#map {
+    position: absolute;
+    height: 400px;
+    width: 100%;
+    border-radius: 50px;
+    z-index: 5;
+    top: 105px;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

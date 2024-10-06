@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar Example</title>
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="#" class="logo">Nebula</a>
+
+      <!-- Search Bar -->
+      <input type="text" placeholder="Search..." class="search-bar" />
+
+      <a href="#" class="nav-button">Video</a>
+      <a href="#" class="nav-button">Help</a>
+      <a
+        href="https://eyes.nasa.gov/apps/orrery/#/inner_solar_system?time=2024-10-03T20:01:52.246+00:00"
+        class="nav-button"
+        id="solar-system-btn"
+        >3D Solar System</a
+      >
+
+      <a href="map.html" class="nav-button">Map</a>
+      <a
+        href="https://spaceplace.nasa.gov/all-about-the-sun/en/"
+        class="nav-button"
+        >Games</a
+      >
+    </div>
+
+    <div class="content"></div>
+
+    <script src="home.js"></script>
+    <script type="text/javascript">
+      (function (d, t) {
+        var v = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+        v.onload = function () {
+          window.voiceflow.chat.load({
+            verify: { projectID: "6700d1138b43f585790ea0ad" },
+            url: "https://general-runtime.voiceflow.com",
+            versionID: "production",
+          });
+        };
+        v.src = "https://cdn.voiceflow.com/widget/bundle.mjs";
+        v.type = "text/javascript";
+        s.parentNode.insertBefore(v, s);
+      })(document, "script");
+    </script>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>

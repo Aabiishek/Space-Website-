@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: rgb(6, 10, 30);
+    color: white;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    padding: 400px;
+}
+
+h1 {
+    font-size: 3em;
+    
+}
+
+p {
+    font-size: 1.2em;
+}
+nav {
+    padding: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Style individual list items */
+nav ul li {
+    margin: 0 10px;
+}
+
+/* Style the links */
+nav ul li a {
+    color: white; 
+    text-decoration: none; 
+    font-size: 18px;
+    padding: 4px 8px;
+    transition: background-color 0.3s ease; 
+}
+
+
+
+footer {
+    padding: 10px;
+}
+/* Apply a background image to the entire body */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('earth.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+}
+
+/* Style the content to be displayed over the background */
+.content {
+    text-align: center;
+    color: white; 
+    padding-top: 20%;
+}
+.content p {
+    padding-top: 200px;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}

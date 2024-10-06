@@ -1,0 +1,83 @@
+/* Add a background image to the body */
+body {
+    background-image: url('mount.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    height: 100vh; 
+    margin: 0; 
+    font-family: Arial, sans-serif;
+    color: white; 
+}
+
+/* Basic styling for content */
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2em;
+}
+/* General reset to remove default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: black; /* Black background */
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Logo or brand styling */
+.logo {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+/* Search bar styling */
+.search-bar {
+    flex-grow: 1;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+/* Navigation buttons */
+.nav-button {
+    color: white;
+    background-color: #333; 
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+.nav-button:hover {
+    background-color: #555;
+}
+
+/* Page content styling */
+.content {
+    padding: 40px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
